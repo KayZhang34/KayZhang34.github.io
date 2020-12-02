@@ -45,32 +45,26 @@
 
 	body {
 		font-family: "Raleway", Helvetica, Arial, sans-serif;
-		font-size: 14px;
 		font-weight: 200;
 		line-height: 1.7857;
-		letter-spacing: 0.075em;
 		color: #333333;
 		background-color: #fff;
+		letter-spacing: 0.075em;
 	}
 
 	a { 
-		color: #000;
+		color: #0563bb;
 		-webkit-transition: all 0.2s ease-in-out;
 		-moz-transition: all 0.2s ease-in-out;
 		-ms-transition: all 0.2s ease-in-out;
 		-o-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
 	}
-
 	a:hover {
-		color: #000;
-	}
-
-	a, a:hover, a:active, a:focus, button:focus {
-		outline: 0;
-		border: 0;
+		color: #067ded;
 		text-decoration: none;
 	}
+
 
 	#st-preloader {
 		background: #FFF;
@@ -81,24 +75,7 @@
 		top: 0;
 		z-index: 9999;
 	}
-	body {
-		font-family: "Open Sans", sans-serif;
-		color: #272829;
-	  }
-	  
-	  a {
-		color: #0563bb;
-	  }
-	  
-	  a:hover {
-		color: #067ded;
-		text-decoration: none;
-	  }
-	  
-	  h1, h2, h3, h4, h5, h6 {
-		font-family: "Raleway", sans-serif;
-	  }
-
+	
 	p {
 		line-height: 1.5;
 	}
@@ -387,7 +364,7 @@
 # Resume
 --------------------------------------------------------------*/
 #resume{
-	padding: 30px 0;
+	padding: 50px 0;
 	overflow: hidden;
 }
 
@@ -430,6 +407,8 @@
 
 .resume-header p {
   margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .resume .resume-title {
@@ -441,7 +420,7 @@
 }
   
 .resume .resume-item {
-	padding: 0 0 20px 20px;
+	padding: 0 0 0px 20px;
 	margin-top: -2px;
 	border-left: 2px solid #0563bb;
 	position: relative;
@@ -465,13 +444,27 @@
 	font-weight: 600;
 	margin-bottom: 10px;
 }
+
+.resume .resume-item p{
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
   
 .resume .resume-item ul {
+	padding-bottom: 10px;
 	padding-left: 20px;
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
 }
   
 .resume .resume-item ul li {
 	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
 }
   
 .resume .resume-item:last-child {
